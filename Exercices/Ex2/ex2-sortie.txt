@@ -1,0 +1,21 @@
+Entrez le nombre de lignes: 3
+Entrez le nombre de colonnes: 3
+Saisir l'élément [0][0] du tableau: 3
+Saisir l'élément [0][1] du tableau: 6
+Saisir l'élément [0][2] du tableau: 9
+Saisir l'élément [1][0] du tableau: 12
+Saisir l'élément [1][1] du tableau: 15
+Saisir l'élément [1][2] du tableau: 18
+Saisir l'élément [2][0] du tableau: 21
+Saisir l'élément [2][1] du tableau: 24
+Saisir l'élément [2][2] du tableau: 27
+
+V[0][0] = 3
+V[0][1] = 6
+V[0][2] = 9
+V[1][0] = 12
+V[1][1] = 15
+V[1][2] = 18
+V[2][0] = 21
+V[2][1] = 24
+V[2][2] = 27

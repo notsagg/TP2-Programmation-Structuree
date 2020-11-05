@@ -1,0 +1,38 @@
+N : entier
+nbChances : entier
+nbLignes: entier
+nbColonnes: entier
+
+// Demander à l’utilisateur la taille du tableau
+nbChances <- 0
+
+faire
+	Ecrire(« Saisir le nombre de lignes de la matrice ») 
+	Lire(N) 
+	nbChances <- nbChances + 1
+tant que (N <= 0 ET nbChances <= 3)
+
+// Vérifier si on a une valeur de N conforme
+
+Si (N <= 0) alors
+	Ecrire(« Nombre de chances dépassés ») 
+Fin Programme
+Fin si
+
+// Déclaration de la matrice deux dimensions
+Var V : tableau[1…N][1...N]
+
+// Lecture des éléments de la matrice
+Pour i allant de 1 jusqu’à nbLignes faire
+	Pour j allant de 1 jusqu'à nbColonnes
+		Ecrire(« Saisir l’élément n°, i, , j«  de la matrice »)
+		Lire(V[I][j])
+	Fin pour
+Fin pour
+
+// Affichage des éléments de la matrice
+Pour i allant de 1 jusqu’à nbLignes faire
+	Pour j allant de 1 jusqu’à nbColonnes faire
+	Ecrire("V[", i, "][", j, "] = " , V[i][j])
+Fin pour
+Fin programme

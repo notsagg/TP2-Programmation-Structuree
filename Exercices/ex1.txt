@@ -1,0 +1,33 @@
+N : entier
+nbChances : entier
+
+// Demander à l’utilisateur la taille du tableau
+nbChances <- 0
+
+faire
+	Ecrire(« Saisir la taille du tableau ») 
+Lire(N) 
+nbChances <- nbChances + 1
+tant que (N <= 0 ET nbChances <= 3)
+
+// Vérifier si on a une valeur de N conforme
+
+Si (N <= 0) alors
+	Ecrire(« Nombre de chances dépassés ») 
+Fin Programme
+Fin si
+
+// Déclaration du tableau
+Var V : tableau[1…N]
+
+// Lecture des éléments du tableau
+Pour i allant de 1 jusqu’à N faire
+	Ecrire(« Saisir l’élément n°, i, «  du tableau »)
+	Lire(V[i])
+Fin pour
+
+// Affichage des éléments du tableau
+Pour i allant de 1 jusqu’à N faire
+	Ecrire(« V[« , i »  = « , V[i]])
+Fin pour
+Fin programme

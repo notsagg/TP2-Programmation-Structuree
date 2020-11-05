@@ -1,0 +1,13 @@
+Nom: Tri à bulle
+
+aux: réel
+
+Pour i allant de 0 à taille-1 faire
+	Pour j allant de 0 à taille-i-1 faire
+		si (tab[j] > tab[j+1]) alors
+			aux <- tab[j]
+			tab[j] <- tab[j+1]
+			tab[j+1] <- aux
+		Fin si
+	Fin pour
+Fin pour

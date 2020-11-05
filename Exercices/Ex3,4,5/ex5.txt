@@ -1,0 +1,13 @@
+Nom: Tri par insertion
+
+j: entier
+
+Pour I allant de 1 à taille-1 faire
+	j <- i
+	Tant que (j > 0 & tab[j-1] > tab[j]) faire
+		aux <- tab[j]
+		tab[j] <- tab[j-1]
+		tab[j-1] <- aux
+		j <- j-1
+	Fin tant que
+Fin pour

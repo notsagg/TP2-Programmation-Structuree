@@ -1,0 +1,20 @@
+Nom: Tri par Sélection
+
+taille: entier
+tab: tableau d'entiers
+min: entier
+aux: réel
+
+Pour i allant de 0 à taille faire
+	min <- i
+	
+	Pour j allant de i+1 à taille faire
+		si (tab[min] > tab[j]) alors
+			min <- j
+		fin si
+	fin pour
+
+	aux <- tab[min]
+	tab[min] <- tab[I]
+	tab[i] <- aux
+Fin pour

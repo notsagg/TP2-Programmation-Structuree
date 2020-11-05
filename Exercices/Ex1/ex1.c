@@ -21,15 +21,17 @@ int main() {
     }
 
     // 3. lecture des éléments du tableau
+    int element = 0;
     for (int i = 0; i < taille; ++i) {
     	printf("Saisir l'élément n°%d du tableau: ", i);
-    	scanf("%d", &taille);
-    	printf("\n");
+    	scanf("%d", &element);
+        tableau[i] = element;
     }
 
     // 4. affichage des éléments du tableau
+    printf("\n");
     for (int i = 0; i < taille; ++i) {
-    	printf("V[%d] = %d", i, tableau[i]);
+    	printf("V[%d] = %d\n", i, tableau[i]);
     }
 
 	return 0;

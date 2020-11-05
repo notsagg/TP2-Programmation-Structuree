@@ -1,0 +1,12 @@
+Entrez la taille du tableau à générer: 5
+Saisir l'élément n°0 du tableau: 2
+Saisir l'élément n°1 du tableau: 4
+Saisir l'élément n°2 du tableau: 6
+Saisir l'élément n°3 du tableau: 8
+Saisir l'élément n°4 du tableau: 10
+
+V[0] = 2
+V[1] = 4
+V[2] = 6
+V[3] = 8
+V[4] = 10

@@ -6,15 +6,15 @@ nbChances <- 0
 
 faire
 	Ecrire(« Saisir la taille du tableau ») 
-Lire(N) 
-nbChances <- nbChances + 1
+	Lire(N) 
+	nbChances <- nbChances + 1
 tant que (N <= 0 ET nbChances <= 3)
 
 // Vérifier si on a une valeur de N conforme
 
 Si (N <= 0) alors
 	Ecrire(« Nombre de chances dépassés ») 
-Fin Programme
+	Fin Programme
 Fin si
 
 // Déclaration du tableau
